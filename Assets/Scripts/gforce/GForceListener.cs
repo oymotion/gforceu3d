@@ -128,7 +128,8 @@ namespace GForce
 
             if (!device.getName().StartsWith("gForce") &&
                 !device.getName().StartsWith("OHand") &&
-                !device.getName().StartsWith("ORehab"))
+                !device.getName().StartsWith("ORehab") &&
+                !device.getName().StartsWith("MPulse"))
             {
                 return;
             }
@@ -274,4 +275,4 @@ namespace GForce
 
     }//end GForceListener
 
-}//end namespace GameCtrler
+}//end namespace GForce
